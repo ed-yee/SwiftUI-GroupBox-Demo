@@ -12,8 +12,8 @@ struct GroupBoxStyleView: View {
     let osName = UIDevice.current.systemName
     
     var body: some View {
-        Text("\(osName) \(osVersion)")
-
+        Text(DeviceInfo.info())
+        
         GroupBox {
             VStack(alignment: .leading) {
                 Text("• Complex header with fancy header")

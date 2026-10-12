@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CustomMultilevel: View {
     var body: some View {
+        Text(DeviceInfo.info())
+        
         GroupBox {
             VStack(alignment: .leading) {
                 Text("• Complex header with fancy header")

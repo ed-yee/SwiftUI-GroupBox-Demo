@@ -3,11 +3,13 @@
 This project demonstrates SwiftUI GroupBox usage.
 
 ## Technical Stuff
-XCode version: 27.0
+Xcode version: 27.0
 
-The project has been tested with the following simulator:
+The project has been tested with the following simulators:
 - iPhone 18 Pro (iOS 18.6)
 - iPhone 18 Pro (iOS 27.0)
+- iPad Pro 11in (M5) (iOS27.0)
+- Mac (Designed for iPad)
 
 ## Basic GroupBox
 
@@ -45,7 +47,7 @@ GroupBox {
 }
 ```
 
-Since the header, `label:` parameter, is a View type therefore you can present anything you want.
+Since the header's `label:` parameter is a View type, you can present anything you want.
 
 ```swift
 GroupBox {
@@ -66,7 +68,7 @@ GroupBox {
 
 ## Multilevel
 
-You can embed another GroupBox within another GroupBox. In fact, you can go as deep as you want.
+You can embed another GroupBox within another GroupBox. You can go as deep as you want.
 
 ![Multilevel GroupBox](Doc%20Assets/Multilevel.png)
 
@@ -102,7 +104,7 @@ The demo project styles the header block with a RoundedRectangle element.
 
 ![Multilevel GroupBox with style](Doc%20Assets/Multilevel%20with%20custom%20style.png)
 
-Other than the indentation of each GroupBox, it is hard to distinguish each GroupBox.
+Other than the indentation, it is hard to distinguish between each GroupBox.
 
 ## Fix Multilevel GroupBox Styling Problem
 
@@ -116,7 +118,7 @@ We need an environment property to hold the current nesting level.
 @Environment(\.groupBoxNestingLevel) var nestingLevel
 ```
 
-Note that the `\.groupBoxNestingLevel` is a custom environment key.
+Note that `\.groupBoxNestingLevel` is a custom environment key.
 
 To access the value, we need to extend EnvironmentValues. We also need to initialize the key value to 0.
 

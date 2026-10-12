@@ -12,7 +12,7 @@ struct Header: View {
     let osName = UIDevice.current.systemName
 
     var body: some View {
-        Text("\(osName) \(osVersion)")
+        Text(DeviceInfo.info())
         
         VStack(spacing: 30) {
             GroupBox {

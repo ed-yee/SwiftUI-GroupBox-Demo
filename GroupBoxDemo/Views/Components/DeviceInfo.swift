@@ -15,12 +15,8 @@ struct DeviceInfo {
     static func info() -> String {
         "\(deviceName) \(osName) \(osVersion)"
     }
-
-//    var body: some View {
-//        Text("\(deviceName) \(osName) \(osVersion)")
-//    }
 }
 
-//#Preview {
-//    DeviceInfo()
-//}
+#Preview {
+    Text(DeviceInfo.info())
+}

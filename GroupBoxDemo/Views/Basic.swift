@@ -15,7 +15,6 @@ struct Basic: View {
     
     var body: some View {
         Text(DeviceInfo.info())
-        Text("\(deviceName) \(osName) \(osVersion)")
         
         GroupBox {
             VStack(alignment: .leading) {
