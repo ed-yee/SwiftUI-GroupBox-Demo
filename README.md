@@ -11,6 +11,12 @@ The project has been tested with the following simulators:
 - iPad Pro 11in (M5) (iOS27.0)
 - Mac (Designed for iPad)
 
+## Additional Coverage
+
+This project also covers the following:
+
+- Define and use a custom environment property
+
 ## Basic GroupBox
 
 A basic GroupBox shows content within a rounded rectangle box.
@@ -23,11 +29,13 @@ GroupBox {
 }
 ```
 
-## GroupBox Title
+## GroupBox Header
 
-A GroupBox can have a title.
+A GroupBox can have a header title.
 
 ![GroupBox Title](Doc%20Assets/Header.png)
+
+Here is a basic implementation:
 
 ```swift
 GroupBox("Header") {
@@ -35,7 +43,15 @@ GroupBox("Header") {
 }
 ```
 
-A formatted title:
+The title may contain supported Markdown syntax.
+
+```swift
+GroupBox("With *Markdown* Header") {
+    Text("Content")
+}
+```
+
+Since the header's `label:` parameter is a View type, you can present anything you want.
 
 ```swift
 GroupBox {
@@ -46,8 +62,6 @@ GroupBox {
         .foregroundStyle(.red)
 }
 ```
-
-Since the header's `label:` parameter is a View type, you can present anything you want.
 
 ```swift
 GroupBox {
