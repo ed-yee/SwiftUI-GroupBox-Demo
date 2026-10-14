@@ -29,9 +29,63 @@
 		093DF49D30789CB2003B4F19 /* GroupBoxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupBoxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		09E73602307F34F700A1BAF8 /* Exceptions for "GroupBoxDemo" folder in "GroupBoxDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 093DF48530789CB1003B4F19 /* GroupBoxDemo */;
+		};
+		09E73603307F371700A1BAF8 /* Exceptions for "Doc Assets" folder in "GroupBoxDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Basic.png,
+				Basic2.png,
+				Basic3.png,
+				CustomMultilevel.png,
+				"easyappicon-icons-1791947362509.zip",
+				"easyappicon-icons-1791947362509/android/ic_launcher-web.png",
+				"easyappicon-icons-1791947362509/android/mipmap-anydpi-v26/ic_launcher_round.xml",
+				"easyappicon-icons-1791947362509/android/mipmap-anydpi-v26/ic_launcher.xml",
+				"easyappicon-icons-1791947362509/android/mipmap-hdpi/ic_launcher_foreground.png",
+				"easyappicon-icons-1791947362509/android/mipmap-hdpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-hdpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/mipmap-ldpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-ldpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/mipmap-mdpi/ic_launcher_foreground.png",
+				"easyappicon-icons-1791947362509/android/mipmap-mdpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-mdpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xhdpi/ic_launcher_foreground.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xhdpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xhdpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxhdpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxhdpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxxhdpi/ic_launcher_round.png",
+				"easyappicon-icons-1791947362509/android/mipmap-xxxhdpi/ic_launcher.png",
+				"easyappicon-icons-1791947362509/android/playstore-icon.png",
+				"easyappicon-icons-1791947362509/android/values/ic_launcher_background.xml",
+				Header.png,
+				"Launch Screen Image.zip",
+				"Launch Screen Image/appstore.png",
+				"Launch Screen Image/Assets.xcassets",
+				"Launch Screen Image/playstore.png",
+				"Launch Screen Image/README.md",
+				"Multilevel with custom style.png",
+				Multilevel.png,
+			);
+			target = 093DF48530789CB1003B4F19 /* GroupBoxDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		093DF48830789CB1003B4F19 /* GroupBoxDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				09E73602307F34F700A1BAF8 /* Exceptions for "GroupBoxDemo" folder in "GroupBoxDemo" target */,
+			);
 			path = GroupBoxDemo;
 			sourceTree = "<group>";
 		};
@@ -47,6 +101,9 @@
 		};
 		093DF5A33078A216003B4F19 /* Doc Assets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				09E73603307F371700A1BAF8 /* Exceptions for "Doc Assets" folder in "GroupBoxDemo" target */,
+			);
 			path = "Doc Assets";
 			sourceTree = "<group>";
 		};
@@ -379,6 +436,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBoxDemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -425,6 +483,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroupBoxDemo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
